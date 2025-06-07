@@ -7,7 +7,7 @@
 - `langchain`
 - `langchain_gemini`
 - `faiss`
-
+- `streamlit`
 ---
 
 ## 🚀 Project Setup and Execution
@@ -31,8 +31,7 @@ To open the `rag.ipynb` notebook:
 
 - Navigate to the file and click **"Open with Colab"** at the top,  
   **OR**
-- Use [this direct link](#) *(replace with actual link)*
-
+- Use [this direct link](https://colab.research.google.com/github/mikolaura/impleting_basic_rag_pipeline/blob/main/rag.ipynb) 
 ---
 
 ### ⚙️ Installing Dependencies
@@ -87,12 +86,8 @@ Run the RAG pipeline through a web-based interface:
 
 - Start from the cell titled `OPTIONAL: CREATE WEB-GUI USING STREAMLIT`.
 - Continue to the end of the notebook.
-- After:
-  ```python
-  os.environ['GOOGLE_API_KEY'] = getpass.getpass()
-  ```
-  input your **Google API key** manually.
-
+- After you run last command open link that was created, but before save ip adress that you get from line `!wget -q -O - https://loca.lt/mytunnelpassword` and paste it into text box
+- After you opened streamlit app you need to paste google api key into correspond text box. And after you can anything that correspond to data in dataset
 ---
 
 ## ⚠️ Important Reminder
